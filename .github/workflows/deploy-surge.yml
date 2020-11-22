@@ -38,6 +38,6 @@ jobs:
       run: npm install --global surge
 
     - name: Deploy to Surge
-      run: surge ./build pwa-expense-app.surge.sh --token ${{ secrets.project001_surge_token }}
+      run: surge ./build http://pwa-expense-app.surge.sh --token ${{ secrets.project001_surge_token }}
 
 ...
