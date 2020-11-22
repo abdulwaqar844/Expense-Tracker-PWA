@@ -7,7 +7,8 @@ var urlsToCache = [
     "/logo192.png",
     "/style.css",
     "/index.html",
-    "/"
+    "/",
+    "/manifest.json"
 ];
 
 self.addEventListener('install', function (event) {
