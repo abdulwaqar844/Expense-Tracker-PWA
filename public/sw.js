@@ -10,7 +10,8 @@ var urlsToCache = [
     "/index.html",
     "/",
     "/static/js/main.chunk.js",
-    "/static/css/main.a09912d6.chunk.css"
+    "/static/css/main.a09912d6.chunk.css",
+    "/static/js/0.chunk.js"
 ];
 
 self.addEventListener('install', function (event) {
