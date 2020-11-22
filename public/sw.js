@@ -1,14 +1,16 @@
-var CACHE_NAME = 'my-site-cache-v1';
+console.log("Regisgtered")
+var CACHE_NAME = 'Website Cache';
 var urlsToCache = [
     "/static/js/bundle.js",
-    "/static/js/0.chunk.js",
+    "/static/js/1.chunk.js",
     "/static/js/main.chunk.js",
+    "/manifest.json",
     "/favicon.ico",
     "/logo192.png",
     "/style.css",
     "/index.html",
     "/",
-    "/manifest.json"
+    "/static/js/main.chunk.js"
 ];
 
 self.addEventListener('install', function (event) {
