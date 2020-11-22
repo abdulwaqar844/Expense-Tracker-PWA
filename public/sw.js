@@ -3,7 +3,6 @@ var CACHE_NAME = 'Website Cache';
 var urlsToCache = [
     "/static/js/bundle.js",
     "/static/js/1.chunk.js",
-    "/static/js/main.chunk.js",
     "/manifest.json",
     "/favicon.ico",
     "/logo192.png",
@@ -29,6 +28,7 @@ self.addEventListener('fetch', function (event) {
             .then(function (response) {
                 // Cache hit - return response
                 if (response) {
+                    
                     return response;
                 }
                 return fetch(event.request);
