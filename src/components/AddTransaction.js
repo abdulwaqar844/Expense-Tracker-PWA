@@ -2,8 +2,6 @@ import React, { useState, useContext } from 'react';
 
 // Import the Global State
 import { GlobalContext } from '../context/GlobalState';
-
-
 export const AddTransaction = () => {
 
     const [description, setDescription] = useState('');
@@ -43,6 +41,7 @@ export const AddTransaction = () => {
                 <div className="form-control">
                     <label htmlFor="transactionamount">
                         Transaction Amount
+                        (Use - with amount for Expenses)
                     </label>
                     <input  type="number" 
                             id="transactionamount"
